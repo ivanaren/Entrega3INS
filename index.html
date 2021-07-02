@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pagina principal</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+      <nav> 
+        <ul>
+        	<li id="title"><a href="index.html">TicTac.cl</a></li>
+        	<li ><a href="#" style="color:black;">Arrendar</a></li>
+        	<li><a href="#" style="color:black;">Comprar</a></li>
+        	<li><a href="#" style="color:black;">Inmobiliaria</a></li>
+    	    <li><a href="#" style="color:black;">Corredoras</a></li>
+        	<li><a href="#" style="color:black;">Especiales</a></li>
+        	<li><a href="#" style="color:black;">Financiamiento</a></li>
+          <li id="sesion"><a>
+            <div class="dropdown">
+              <span>Maria Acevedo</span>
+              <div class="dropdown-content">
+                <p onclick="location.href=''"><a href="mis_propiedades.html" style="color:black;">Vender propiedad</a></p>
+                <hr>
+                <p onclick="location.href=''"><a href="#" style="color:black;">Mis favoritos</a></p>
+                <hr>
+                <p onclick="location.href=''"><a href="#" style="color:black;">Actualizar datos</a></p>
+                <hr>
+                <p onclick="location.href='iniciar_sesion.html'"><a href="#" style="color:black;">Cerrar sesion</a></p>
+              </div>
+            </div>
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="contenedor">
+      <div id="buscador">
+        <p id="p1">Hola, tu proximo hogar esta aca!</p>
+        <p id="p1">¡Comienza tu busqueda!</p>
+        <button id="busqueda_boton" autofocus="autofocus">Comprar</button>
+        <button id="busqueda_boton">Arrendar</button>
+        <button id="busqueda_boton">Tasar</button>
+        <button id="busqueda_boton">Tu barrio</button>
+        <hr>
+        <select id="s1">
+          <option value="casasydepartamentos">Casas y Departamentos</option>
+          <option value="bodega">Bodega</option>
+          <option value="Estacionamiento">Estacionamiento</option>
+          <option value="Ooficinas">Oficinas</option>
+        </select>
+        <input id="txtbusqueda" type="text" name="txtbusqueda" placeholder="Ingresa comuna o ciudad">
+        <button id="b1">Buscar</button>
+      </div>
+      <img id="imagen" src="https://static.vecteezy.com/system/resources/previews/001/900/687/non_2x/couple-at-home-free-photo.jpg">
+    </div>
+    <br>
+    <br>
+    <br>
+    <p id="titulo2" style="text-align: center;">Proyectos recomendados</p>
+    <div id="pr">
+      
+      <div id="propiedades">
+        <img id="imagenes" src="https://assets-global.website-files.com/5f4f67c5950db17954dd4f52/5f5b7ee442f1e5b9fee1c117_hacerse-una-casa.jpeg">
+        <p id="desde" style="font-weight: bold;">Desde UF 3.655</p>
+        <hr>
+        <div>
+          <p id="desde" style="font-size: 16px;">Condominio Newen, Puente Alto</p>
+          <p id="desde" style="font-size: 15px;">casa - <font color="red">nuevo en venta</font></p>
+        </div>
+      </div>
+      <div id="propiedades">
+        <img id="imagenes" src="https://s1.eestatic.com/2019/08/09/omicrono/omicrono_420219253_131917136_1706x960.jpg">
+        <p id="desde" style="font-weight: bold;">Desde UF 5.290</p>
+        <hr>
+        <div>
+          <p id="desde" style="font-size: 16px;">La Dehesa de la Viña, Puente Alto</p>
+          <p id="desde" style="font-size: 15px;">casa - <font color="red">nuevo en venta</font></p>
+        </div>
+      </div>
+      <div id="propiedades">
+        <img id="imagenes" src="https://www.emprendedores.es/wp-content/uploads/2021/04/iStock-1297687835-e1619595476127-1024x575.jpg">
+        <p id="desde" style="font-weight: bold;">Desde UF 2.500</p>
+        <hr>
+        <div>
+          <p id="desde" style="font-size: 16px;">Nuevos Aires, Puente Alto</p>
+          <p id="desde" style="font-size: 15px;">departamento - <font color="red">nuevo en venta</font></p>
+        </div>
+      </div>
+      <div id="propiedades">
+        <img id="imagenes" src="https://www.socovesa.cl/wp-content/uploads/2019/11/santamariadelabranza_SO71-1024x768.jpg">
+        <p id="desde" style="font-weight: bold;">Desde UF 3.678</p>
+        <hr>
+        <div>
+          <p id="desde" style="font-size: 16px;">Ciudad del Sol, Puente Alto</p>
+          <p id="desde" style="font-size: 15px;">casa - <font color="red">nuevo en venta</font></p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <div class="row">
+        <div class="col col-3">
+          <p id="text-footer">¿Necesitas nuestra ayuda?</p>
+          <p style="font-size:16px; color: black;"><a href="#" style="color: black;">informacion de tu propiedad</a><br>
+            <a href="#" style="color: black;">Valoralizacion de propiedades</a><br>
+            <a href="#" style="color: black;">Corredores</a>
+          </p>
+        </div>
+        <div class="col col-3">
+          <p  id="text-footer">Nuestra compañia</p>
+          <p style="font-size:16px"><a href="#" style="color: black;">Quienes somos</a><br>
+            <a href="#" style="color: black;">Terminos de usos</a><br>
+            <a href="#" style="color: black;">Trabaja con nosotros</a>
+          </p>
+        </div>
+        <div class="col col-3">
+          <p  id="text-footer">Productos</p>
+          <p style="font-size:16px"><a href="#" style="color: black;">Informacion inmobiliario</a><br>
+            <a href="#" style="color: black;">publicacion de proyectos</a><br>
+            <a href="#" style="color: black;">Espacio publicidad</a>
+          </p>
+        </div>
+        <div class="col">
+          <p  id="text-footer">Siguenos</p>
+          <a href="#"><i id="iconos" style="color: black;" class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i id="iconos" style="color: black;" class="fab fa-youtube fa-2x"></i></a>
+          <a href="#"><i id="iconos" style="color: black;" class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i id="iconos" style="color: black;" class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

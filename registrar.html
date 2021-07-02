@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registrar</title>
+	<script src="..js/js.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/registrar.css">
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<style type="text/css">  
+      input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+      input[type=number] { -moz-appearance:textfield; 
+      }
+       input[type=date]::-webkit-inner-spin-button, 
+      input[type=date]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+      input[type=date] { -moz-appearance:textfield; 
+      }
+    </style>
+</head>
+<body>
+	<div id="barra">
+		
+	</div>
+	<div id="buscador">
+		<div class="">
+			<form role="form" id="fuente">
+				<h2>Unete a tictac.cl <small>Es gratis y siempre lo sera.</small></h2>
+				<hr class="colorgraph">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="form-group">
+	                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="Ingresa tu nombre" tabindex="1">
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6" style="font-size: 15px">
+						<div class="form-group">
+							<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Ingresa tus apellidos" tabindex="2">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Ingresa tu e-mail " tabindex="4">
+				</div>
+				<div class="form-group">
+					<input type="text" name="display_rut" id="display_rut" class="form-control input-lg" placeholder="Ingresa tu rut" tabindex="3">
+				</div>
+				<div class="row">
+					<div class="" style="margin-left: 15px;">
+						<select class="form-control input-lg" style="max-width: 97px;">
+					    <option selected="">+569</option>
+					    <option value="1">+972</option>
+					    <option value="2">+198</option>
+					    <option value="3">+701</option>
+					</select>
+					</div>
+					<div class="" style="width: 22%">
+						<input type="number" name="phone" id="phone" class="form-control input-lg" placeholder="telefono" style="width: 120%; margin-left: 2%;" tabindex="5">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="form-group">
+							<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5" style="margin-left: 17%">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-12">
+						<span class="button-checkbox" style="float: left; font-size:15px">
+							<button type="button" class="btn" data-color="info" tabindex="7">Acepto</button>
+	                        <input style="font-size: 15px" type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+	                        Declaro conocer y aceptar los <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terminos y condiciones de uso.</a>
+						</span>
+					</div>
+				</div>
+				<hr class="colorgraph">
+				<div class="row">
+					<div class="col-xs-12 col-md-6"><input type="submit" value="Registrar" class="btn btn-primary btn-block btn-lg" tabindex="7" id="btn"></div>
+					<div class="col-xs-12 col-md-6"><a href="iniciar_sesion.html" class="btn btn-success btn-block btn-lg">Iniciar Sesion</a></div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
